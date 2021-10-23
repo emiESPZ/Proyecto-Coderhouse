@@ -1,0 +1,499 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*HEADER*/
+
+.fab a {
+    color: black;
+}
+
+.logo {
+    float: left;
+}
+
+.logo__firma {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo__info {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 115px;
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    list-style: none;
+    left: 0;
+    top: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 1px 1px 5px grey;
+    z-index: 2;
+}
+
+
+/*NAV*/
+
+.nav__logos {
+    font-size: 2rem;
+    margin-right: 10rem;
+    word-spacing: 1rem;
+}
+
+.nav__logos__redes {
+    color: black;
+    margin-right: 1rem;
+}
+
+.nav__list {
+    margin-left: 60rem;
+    margin-top: -4.3rem;
+    display: flex;
+    list-style: none;
+    float: right;
+    min-width: 50%;
+}
+
+.nav__link:hover {
+    background-color: #C9E4C5;
+    box-shadow: 1px 1px 5px rgb(202, 200, 200);
+}
+
+.nav__link {
+    text-decoration: none;
+    color: black;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: inline-block;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    position: relative;
+    width: 10rem;
+    text-align: center;
+}
+
+.nav__item {
+    padding: 0.5px 0.5px 0.5px 0.5px;
+}
+
+.nav__sublist {
+    list-style: none;
+    display: none;
+    position: absolute;
+    margin-top: 1.5px;
+}
+
+.nav__sublink {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+    box-shadow: 1px 1px 5px grey;
+    margin-top: 2px;
+    text-align: center;
+    width: 10.1rem;
+}
+
+.nav__sublink:hover {
+    background-color: rgb(235, 231, 231);
+}
+
+.nav__item:hover .nav__sublist {
+    display: block;
+    margin-left: -2.5rem;
+    text-align: center;
+}
+
+
+/*IMAGEN SUPERIOR*/
+
+.imagen1 {
+    text-align: center;
+    margin-top: 4.6rem;
+}
+
+.img1 {
+    width: 58rem;
+}
+
+
+/*TABLA CON INFORMACION*/
+
+.table {
+    margin-top: 2rem;
+    width: 60%;
+    table-layout: fixed;
+    background-color: #B5CDA3;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-collapse: separate;
+    margin-left: auto;
+    margin-right: auto;
+       
+}
+
+th,
+td {
+    padding: 10px 20px;
+}
+
+td {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ol1 {
+    list-style: none;
+    margin-left: -42px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+body {
+    background: white;
+    color: black;
+}
+
+
+/*INFORMACION SOBRE LA TERAPIA, FOTO PRINCIPAL*/
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    color: #B5CDA3;
+    width: 40rem;
+    height: 40rem;
+    overflow: hidden;
+    margin: 2rem;
+    text-align: justify;
+    padding: 28px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.texto h1 {
+    text-align: center;
+}
+
+.fotopsi1 {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    margin-top: 8rem;
+}
+
+
+/*CONTACTO*/
+
+.contacto-formulario {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 34.2rem;
+    width: 75%;
+    justify-content: space-between;
+    box-shadow: 1px 1px 15px 2px black;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+    background-color: #B5CDA3;
+    margin-bottom: 5rem;
+}
+
+.contacto {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    box-shadow: 1px 1px 5px grey;
+    padding: 1rem;
+    height: 30rem;
+}
+
+
+/*LOGOS REDES*/
+
+.footer__logos {
+    text-align: center;
+    margin-left: 1.3rem;
+}
+
+.footer__logos__redes {
+    color: white;
+    font-size: 2rem;
+    margin-right: 1.5rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+/*MAPA*/
+
+.mapa {
+    margin-top: 2rem;
+}
+
+
+/*FORMULARIO DE CONTACTO*/
+
+.form {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    box-shadow: 1px 1px 5px grey;
+    padding: 1rem;
+    height: 30rem;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: #1c1c1c;
+    padding: 2rem;
+    height: 20rem;
+    display: grid;
+    grid-template-columns: 25rem 25rem;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-sitio {
+    margin-left: -50%;
+    text-align: justify;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 1rem;
+    margin-right: 2rem;
+}
+
+.footer-sitio h4 {
+    color: white;
+    border-bottom: 2px solid grey;
+    width: 35rem;
+}
+
+.footer-publicaciones {
+    margin-right: -50%;
+    text-align: justify;
+    color: #9c9c9c;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 1rem;
+    margin-left: 2rem;
+}
+
+.footer-publicaciones h4 {
+    color: white;
+    border-bottom: 2px solid grey;
+    width: 35rem;
+}
+
+
+/*PAGINA TERAPIAS*/
+
+.terapias {
+    margin-top: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.terapias>h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.terapias>h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.terapias__parejas {
+    margin-top: 4.5rem;
+}
+
+.terapias__parejas>h3 {
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.terapias__parejas>h4 {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+
+/*PAGINA SOBRE MI*/
+
+.sobremi {
+    margin-top: 10rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sobremi>h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 2.5rem;
+}
+
+.cv {
+    background-color: rgba(87, 86, 86, 0.1);
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 2rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cv h3 {
+    padding: 2rem;
+}
+
+.cv h4 {
+    padding: 1rem;
+}
+
+.cv ul li {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: justify;
+}
+
+.cv p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: justify;
+}
+
+
+/*PAGINA CONTACTO*/
+
+.pagina-contacto {
+    margin-top: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.sesiones-container {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    width: 70rem;
+    height: 38rem;
+    text-align: center;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+    color: #7c746c;
+    position: relative;
+    z-index: 1;
+}
+
+.individuales {
+    border: 1px solid #C1AC95;
+    width: 25rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    box-shadow: 2px 4px 8px;
+}
+
+.on-line {
+    border: 1px solid #C1AC95;
+    width: 25rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    box-shadow: 2px 4px 8px;
+    justify-items: center;
+    position: relative;
+}
+
+.on-line__exterior {
+    border: 1px solid #C1AC95;
+    width: 25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    box-shadow: 2px 4px 8px;
+}
+
+.sesiones-container h3 {
+    margin-bottom: 1em;
+    margin-top: 1rem;
+}
+
+.sesiones-container p {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 13rem;
+}
+
+.image-online {
+    width: 30rem;
+    margin-top: -2rem;
+    position: absolute;
+    z-index: -1;
+    margin-left: -15rem;
+}
+
+.image-individuales {
+    width: 17rem;
+    height: 12rem;
+    margin-top: 2.5rem;
+    position: absolute;
+    z-index: -1;
+    margin-left: -8.5rem;
+}
+
+.image-online-exterior {
+    width: 11rem;
+    margin-top: 2.7rem;
+    margin-left: -5.2rem;
+    position: absolute;
+    z-index: -1;
+}
+
+
+/*PAGINA MAS*/
+
+.mas {
+    margin-top: 10rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+.no-content {
+    margin-top: 20rem;
+}
+
+.video {
+    text-align: center;
+    margin-top: 10rem;
+}
