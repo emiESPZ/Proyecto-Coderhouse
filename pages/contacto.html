@@ -34,17 +34,17 @@
                 <!--Logo Instagram-->
             </div>
             <ul class="nav__list">
-                <li class="nav__item"><a class="nav__link" href="../index.html">Inicio</a></li>
-                <li class="nav__item"><a class="nav__link" href="terapias.html">Terapias</a>
+                <li class="nav__item"><a class="nav__link nav__link1" href="../index.html">Inicio</a></li>
+                <li class="nav__item"><a class="nav__link nav__link2" href="terapias.html">Terapias</a>
                     <ul class="nav__sublist">
                         <li class="nav_subitem"><a href="terapias.html#terapias-tcc" class="nav__sublink">TCC</a></li>
                         <li class="nav_subitem"><a class="nav__sublink" href="terapias.html#terapias-parejas">Parejas</a></li>
-                        <li class="nav_subitem"><a class="nav__sublink" href="">Terapia Virtual</a></li>
+                        <li class="nav_subitem"><a class="nav__sublink" href="terapias.html#terapias-virtual">Terapia Virtual</a></li>
                     </ul>
                 </li>
-                <li class="nav__item"><a class="nav__link" href="sobremi.html">Sobre mi</a></li>
-                <li class="nav__item"><a class="nav__link" href="contacto.html" target="_blank">Contacto</a></li>
-                <li class="nav__item"><a class="nav__link" href="mas.html">Más</a></li>
+                <li class="nav__item"><a class="nav__link nav__link3" href="sobremi.html">Sobre mi</a></li>
+                <li class="nav__item"><a class="nav__link nav__link4" href="contacto.html" target="_blank">Contacto</a></li>
+                <li class="nav__item"><a class="nav__link nav__link5" href="mas.html">Más</a></li>
             </ul>
         </nav>
 
@@ -108,25 +108,26 @@
                 <label for="edad">Edad</label>
                 <input id="edad" name="edad" placeholder="Edad" type="number" /><br>
                 <label for="email">Email</label>
-                <input id="email" name="email" placeholder="Email" type="email" /><br>
-                <p>Hiciste tratamiento anteriormente?</p>
-                <div>
-                    <input id="tratamiento-si" type="radio" name="tratamiento" />
-                    <label for="tratamiento-si">Si</label>
-                    <input id="tratamiento-no" type="radio" name="tratamiento" />
-                    <label for="tratamiento-no">No</label></div><br>
+                <input id="email" name="email" placeholder="Email" type="email" /><br><br>
+                <div class="preg"><p>Hiciste tratamiento anteriormente?</p>
+                <div class="radio">
+                    <input class= "typr" id="tratamiento-si" type="radio" name="tratamiento" value="1" />
+                    <label class= "trsi" for="tratamiento-si">Si</label>
+                    <input class= "typr" id="tratamiento-no" type="radio" name="tratamiento" value="2" />
+                    <label class= "trsi" for="tratamiento-no">No</label></div>
                 <p>DISPONIBILIDAD HORARIA:</p>
                 <select name="disponibilidad" id="disponibilidad">
-                    <option value="M">Mañana</option>
-                    <option value="T">Tarde</option>
-                    <option value="N">Noche</option>
-                </select><br><br>
-                <label for="consulta">Consulta</label><br>
+                <option value="M">Mañana</option>
+                <option value="T">Tarde</option>
+                <option value="N">Noche</option>
+            </select></div><br><br>
+                <label class="consulta" for="consulta">Consulta</label><br>
                 <textarea id="consulta" placeholder="Describa brevemente el motivo de su consulta..." name="consulta" rows="10" cols="50"></textarea><br>
                 <button type="submit">Enviar</button>
                 <button type="reset" value="Borrar">Borrar</button>
             </form>
         </div>
+    </section>
     </main>
     <div class="no-content"></div>
     <!-- Footer-->
