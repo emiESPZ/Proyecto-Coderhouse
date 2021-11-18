@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,400;1,500;1,900&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/41742ea28b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
 </head>
 
 <body>
@@ -22,7 +25,7 @@
             <h2 class="logo__firma">Lorem Ipsum</h2>
             <h4 class="logo__info">Licenciada en Psicología <br>(M.N. 123456)</h4>
         </div>
-        <nav class="nav">                  
+        <nav class="navi">                  
             <div class="nav__logos">
                 <a class="nav__logos__redes" href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 <a class="nav__logos__redes" href="https://www.whatsapp.com" target="_blank"><i class="fab fa-whatsapp-square"></i></a>
@@ -46,9 +49,35 @@
     </header><br><br><br>
 
     <!-- Main section: Imagen superior, tabla con resumen sobre el contenido-->
-    <main class="principal"></i><a class="contacto-foto"><i class="fab fa-whatsapp-square foto"></i></a></main><img class="img1" src="images/Foto Header.jpg" alt="Psicologa-Online" />
-        <!-- aqui va Foto de la cabecera-->
-        </div>
+    <main class="principal">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Foto Header.jpg" class="d-block w-100" alt="Psicologa-Online">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Foto Header 2.jpg" class="d-block w-100" alt="Psicologa-Online">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Foto Header 3.jpg" class="d-block w-100" alt="Psicologa-Online">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+       </main>
+        
         
     <!-- Sección central, texto introductorio, foto-->
     <section class="section1">
@@ -67,20 +96,29 @@
         </div>
         <img class="grafico" src="images/grarfico.jpg" alt="grafico">
     </section>
-    <section class="main">
-        <div class="table">
-            <div><h3>ANSIEDAD</h3>
-            <p><ol class="ol1">
-                <li>Ansiedad generalizada, trastorno de pánico, ansiedad social, fobias.</li>
-                <li>Ansiedad sexual, ansiedad de desempeño, trastornos sexuales.</li>
-                <li>Trastornos alimentarios.</li>
-            </ol></p></div>
-            <div><h3>DEPRESIÓN</h3>
-            <p>Específico tratamiento que trabaja sobre la mejora de calidad de vida, cambio de conductas y percepciones del si mismo que afectan el ánimo.</p></div>
-           <div> <h3>TERAPIA DE PAREJA</h3>
-            <p>Tratamiento específico que trabaja en la conciliación, negociación, comprensión y resolución de las problemáticas que afectan la unión.</p></div>
+    
+    <section class="page-center">
+        <div class="container">
+            <table class="table bg-light table-responsive">
+              <tr>
+                <td colspan="2" class="table-active"><h5>ANSIEDAD</h5></td>
+                <td colspan="2" class="table-active"><h5>DEPRESIÓN</h5></td>
+                <td colspan="2" class="table-active"><h5>TERAPIA DE PAREJA</h5></td>
+              </tr>
+              <tr>
+                <td colspan="2" class="table-active"><ol class="ol1">
+                    <li>Ansiedad generalizada, trastorno de pánico, ansiedad social, fobias.</li>
+                    <li>Ansiedad sexual, ansiedad de desempeño, trastornos sexuales.</li>
+                    <li>Trastornos alimentarios.</li></td>
+                <td colspan="2" class="table-active">Específico tratamiento que trabaja sobre la mejora de calidad de vida, cambio de conductas y percepciones del si mismo que afectan el ánimo.</td>
+                <td colspan="2" class="table-active">Tratamiento específico que trabaja en la conciliación, negociación, comprensión y resolución de las problemáticas que afectan la unión.</td>
+              </tr>
+              </tbody>
+           </table>
+        
         </div>
     </section>
+
         
         
 
@@ -108,18 +146,18 @@
             </div>
         </div>
         <!--Mapa-->
-        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894538!2d-58.38375908425697!3d-34.60373446500705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1634139996442!5m2!1ses-419!2sar"
+        <iframe class="iframei" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894538!2d-58.38375908425697!3d-34.60373446500705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1634139996442!5m2!1ses-419!2sar"
                width="100%" height="50%" allowfullscreen="" loading="lazy"></iframe>
         <!--Formulario de contacto-->
-        <div class="form ">
+        <div class="formi">
             <form>
-                <label for="nombre">Nombre</label>
+                <label for="nombre" class="labeli">Nombre</label>
                 <input id="nombre" name="nombre" placeholder="Nombre" type="text" /><br>
-                <label for="apellido">Apellido</label>
+                <label for="apellido" class="labeli">Apellido</label>
                 <input id="apellido" name="apellido" placeholder="Apellido" type="text" /><br>
-                <label for="edad">Edad</label>
+                <label for="edad" class="labeli">Edad</label>
                 <input id="edad" name="edad" placeholder="Edad" type="number" /><br>
-                <label for="email">Email</label>
+                <label for="email" class="labeli">Email</label>
                 <input id="email" name="email" placeholder="Email" type="email" /><br><br>
                 <div class="preg"><p class="p1">Hiciste tratamiento anteriormente?</p>
                 <div class="radio">
@@ -141,7 +179,7 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer">
+    <footer class="footeri">
         <div class="footer-sitio">
             <h4>SOBRE EL SITIO</h4><br>
             <p>Lorem Ipsum, Licenciada en Psicología recibida en la Universidad de Buenos Aires. Realizó su especialización en Psicoterapia Cognitiva en la Fundación Aiglé. Y Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum, quisquam
@@ -156,7 +194,9 @@
             </p>
         </div>
     </footer>
-    <!-- COMMENT PARA CHEQUEAR QUE FUNCIONA GIT MERGE -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

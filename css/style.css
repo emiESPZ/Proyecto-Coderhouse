@@ -49,7 +49,7 @@ header {
     font-family: 'Rubik', sans-serif;
     box-shadow: 1px 1px 5px grey;
     letter-spacing: 1px;
-    z-index: 2;
+    z-index: 999;
 }
 
 .toggle{
@@ -84,11 +84,12 @@ header {
 }
 .fab:hover{
     transform: translateY(5px);
+    color:rgb(160, 153, 153);
 }
 
 .nav__list {
     margin-left: 60rem;
-    margin-top: -3.3rem;
+    margin-top: -4.8rem;
     display: flex;
     list-style: none;
     float: right;
@@ -206,17 +207,14 @@ header {
 
 .nav__item:hover .nav__sublist {
     display: block;
-    margin-left: -2.5rem;
+    margin-left: -2.2rem;
     text-align: center;
 }
 
 
 /*IMAGEN SUPERIOR*/
 
-.main {
-    text-align: center;
-    margin-top: 0rem;
-}
+
 
 .principal{
     position: relative;
@@ -224,11 +222,8 @@ header {
     
 }
 
-.img1 {
-    width: 100%;
-    filter: grayscale(100%);
-
-    
+.d-block{
+    filter: grayscale(100%)
 }
 
 /*INFORMACION SOBRE LA TERAPIA, GRAFICO*/
@@ -267,7 +262,13 @@ to{margin-left:0px;}
 
 /*TABLA CON INFORMACION*/
 
-.table {
+.table-active{
+    text-align: center;
+}
+
+
+
+/* .tablei {
     display: grid;
     width: 60%;
     color: black;
@@ -276,24 +277,32 @@ to{margin-left:0px;}
     grid-template-columns: auto auto auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: -8%;
+    margin-top: 5%;
+    
       
 }
 
-.table h3{
+.tablei h3{
     padding: 0.8rem;
     margin: 1rem;
     border: 1px solid black;
+    width: 25rem;
+    text-align: center;
+    
 
 }
 
-.table p{
+
+.tablei p{
     margin: 2rem;
-}
+    text-align: center;
+} */
 
 .ol1 {
-    /* list-style: none; */
-    margin: 2rem;
+text-align: center;
+    
+    
+       
 
 }
 
@@ -378,7 +387,7 @@ iframe{
 
 /*FORMULARIO DE CONTACTO*/
 
-.form {
+.formi {
     
     margin: 2rem;
     height: 30%;
@@ -431,7 +440,7 @@ input{
 }
 
 #disponibilidad{
-    width: 5rem;
+    width: 5.5rem;
     height: 1.5rem;
     margin: 1%;
 
@@ -446,10 +455,10 @@ input{
 
 /*FOOTER*/
 
-.footer {
+.footeri {
     background-color: #1c1c1c;
     padding: 2rem;
-    height: 16rem;
+    height: 21rem;
     display: grid;
     grid-template-columns: 25rem 25rem;
     justify-content: center;
@@ -602,6 +611,14 @@ margin-right: 5%;
 
 /*PAGINA CONTACTO*/
 
+.card-group{
+    margin-top:12rem;
+    width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12rem;
+}
+
 .pagina-contacto {
     margin-top: 10rem;
     margin-left: 12rem;
@@ -749,8 +766,15 @@ margin-right: 5%;
 }
 
 @media (max-width: 1440px){
-    label{
-        margin-right: 1.5rem;}
+    .labeli{
+        margin-right: 1.5rem;
+        }
+        input{
+            width: 75%;
+        }
+        .contacto h3{
+            font-size: 1.5rem;
+        }
     
     .trsi{
         margin-right: 0.5rem;
@@ -758,6 +782,9 @@ margin-right: 5%;
     .typr{
         margin-right: 0.5rem;
         
+    }
+    .iframei{
+        height: 25rem;
     }
 
 
@@ -771,15 +798,9 @@ margin-right: 5%;
     padding-right: 1rem;
     width: 8rem;
     }
-    .texto{
-       height: 38rem;
-       text-align: center;
-      
-    }
     .lista1{
         margin-top: 2rem;
         
-
     }
     .grafico{
         display:none;
@@ -805,6 +826,11 @@ margin-right: 5%;
         left: 46px;
         width: 38px;
                     }
+    .iframei{
+        height:19rem;
+    }
+
+
 }
 @media (max-width: 1050px){
     .nav__link{
@@ -881,20 +907,7 @@ margin-right: 5%;
         width: 100%;
         text-align: center;
 
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-        }
+    }
     .grafico{
         width: 25rem;
         height: 20rem;
@@ -902,7 +915,7 @@ margin-right: 5%;
         margin-left: 25%;    
     }
 
-    .table{
+    .tablei{
         display:none;
     }
     .lista1{
@@ -934,7 +947,7 @@ margin-right: 5%;
         width: 25rem;
         height: 10rem;
     }
-    .form{
+    .formi{
         text-align: center;
     }
     .texto{
@@ -942,7 +955,7 @@ margin-right: 5%;
         margin-right: auto;
         width: 80%;
     }
-    .iframe{
+    .iframei{
         margin-top:2%;
         width: 60%;
     }
