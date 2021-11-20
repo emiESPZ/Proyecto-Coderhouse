@@ -757,10 +757,14 @@ margin-right: 5%;
     margin-top: -14rem;
 }
 
+@media (max-width: 1994px){
+.leer{
+    display:none;
+}
+}
+
 @media (max-width: 1750px){
-    .leer{
-        display:none;
-    }
+
 
     input{
         width:65%; 
