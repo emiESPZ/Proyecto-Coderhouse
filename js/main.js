@@ -5,3 +5,4 @@ navToggle.addEventListener("click", () => {
     navMenu.classList.toggle("nav-list__visible");
 }
 );
+

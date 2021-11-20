@@ -115,6 +115,11 @@ header {
     position:relative;
     
 }
+.navbar{
+    height: 25px;
+    background-color: #f3f2ec
+}
+
 
 /*ANIMACION NAV*/
 
@@ -794,14 +799,14 @@ margin-right: 5%;
 
 @media (max-width: 1440px){
     .labeli{
-        margin-right: 1.5rem;
-        }
-        input{
-            width: 75%;
-        }
-        .contacto h3{
-            font-size: 1.5rem;
-        }
+    margin-right: 1.5rem;
+    }
+    input{
+    width: 75%;
+    }
+    .contacto h3{
+    font-size: 1.5rem;
+    }
     
     .trsi{
         margin-right: 0.5rem;
@@ -899,6 +904,37 @@ margin-right: 5%;
     }
 }
 
+@media (max-width: 991px){
+
+    .logoi{
+        margin-top:-4rem;
+    }
+
+    .navbar-nav{
+        flex-direction: column;
+        background-color: white;
+        height: calc(100vh + 115px);
+        text-align: center;
+        font-size: 20px;
+    }
+    .dropdown-menu{
+        width: 35%;
+        right: auto;
+        left: 50%;
+        -webkit-transform: translate(82%, 0);
+        -o-transform: translate(82%, 0);
+        transform: translate(82%, 0);
+                
+    }
+}
+
+@media (max-width: 769px){
+
+    .logoi{
+        margin-top:-0.5rem;
+        margin-left: 5rem;
+    }
+}
 
 @media (max-width: 768px){
     
@@ -930,10 +966,6 @@ margin-right: 5%;
         margin-right: auto;
     }
 
-/*     .navi{
-        display:flex;
-    } */
-
     .nav__logos{
         margin-top:-8rem;
         margin-left: 78%;
@@ -949,15 +981,11 @@ margin-right: 5%;
         background-color: #2c3e50;
         height: calc(100vh + 115px);
         width: 100%;
-
-        /* margin-right: 0rem; */
         margin-top: 0rem;
         padding-top:15rem;
         overflow-y: auto;
-        margin-top: 100rem;
-         
-              
-
+        margin-top: 100rem;        
+    
     }
 
     .nav-list__visible{
@@ -967,6 +995,7 @@ margin-right: 5%;
         text-align: center;
         
     }
+
     .grafico{
         width: 25rem;
         height: 20rem;
@@ -1032,5 +1061,22 @@ margin-right: 5%;
     .logo__info{
         font-size: 10px;
         margin-left:-35rem;
+    }
+}
+@media (max-width: 768px){
+    .logo{
+        margin-left: 2.2rem;
+    }
+    .logoi{
+        margin-left: 4.3rem;
+    }
+
+}
+@media (max-width: 530px){
+    .logo{
+        margin-left: 3.5rem;
+    }
+    .logoi{
+        margin-left: 4.2rem;
     }
 }
