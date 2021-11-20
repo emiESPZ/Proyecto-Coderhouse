@@ -474,10 +474,10 @@ input{
 
 .footeri {
     background-color: #1c1c1c;
-    padding: 2rem;
-    height: 21rem;
+    padding: 1%;
+    height: 12%;
     display: grid;
-    grid-template-columns: 25rem 25rem;
+    grid-template-columns: 30% 30%;
     justify-content: center;
     margin-top: 2rem;
     width: 100%;
@@ -485,12 +485,12 @@ input{
 }
 
 .footer-sitio {
-    margin-left: -50%;
+    margin-left: -60%;
     text-align: justify;
     color: #9c9c9c;
     font-family: 'Rubik', sans-serif;
     padding-right: 1rem;
-    margin-right: 2rem;
+    margin-right: 1%;
 }
 
 .footer-sitio h4 {
@@ -500,12 +500,12 @@ input{
 }
 
 .footer-publicaciones {
-    margin-right: -50%;
+    margin-right: -60%;
     text-align: justify;
     color: #9c9c9c;
     font-family: 'Rubik', sans-serif;
     padding-left: 1rem;
-    margin-left: 2rem;
+    margin-left: 1%rem;
 }
 
 .footer-publicaciones h4 {
@@ -758,6 +758,9 @@ margin-right: 5%;
 }
 
 @media (max-width: 1750px){
+    .leer{
+        display:none;
+    }
 
     input{
         width:65%; 
@@ -926,6 +929,41 @@ margin-right: 5%;
         transform: translate(82%, 0);
                 
     }
+    .contacto-formulario{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 10%;
+        align-items: center;
+        height: 55%;
+    }
+    .preg{
+        text-align: center;
+        font-size: 1rem;
+    }
+    #consulta{
+
+        width: 25rem;
+        height: 10rem;
+    }
+    .formi{
+        text-align: center;
+    }
+    .texto{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .iframei{
+        margin-top:2%;
+        width: 60%;
+    }
+    .typr{
+        margin-right: -1rem;
+        
+    }
+    .trsi{
+        margin-right: -1rem;
+    }
 }
 
 @media (max-width: 769px){
@@ -964,6 +1002,7 @@ margin-right: 5%;
         display: block;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
     .nav__logos{
@@ -1007,18 +1046,24 @@ margin-right: 5%;
         display:none;
     }
     .lista1{
-        list-style: none;
-        margin-top: 2rem;
-
-    }
-    .lista1 li{
-        margin-top:2rem;
+     
+        display:none;
         
     }
-    .lista1 li::before{
-        content:"\00a4";
-       
+    .estrategias{
+        display:none;
     }
+    .leer{
+        display:block;
+    }
+    .texto{
+        margin-bottom: -25rem;
+    }
+
+    .page-center{
+        margin-top: 2rem;
+    }
+
     .contacto-formulario{
         display: flex;
         flex-direction: column-reverse;
