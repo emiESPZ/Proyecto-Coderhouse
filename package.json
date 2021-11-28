@@ -1,0 +1,19 @@
+{
+  "name": "sitioweb1",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de Desarrollo Web de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiESPZ/Proyecto-Coderhouse.git"
+  },
+  "author": "Emiliano Pérez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiESPZ/Proyecto-Coderhouse/issues"
+  },
+  "homepage": "https://github.com/emiESPZ/Proyecto-Coderhouse#readme"
+}
