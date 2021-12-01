@@ -1,0 +1,53 @@
+/*HEADER*/
+
+.fab a {
+    color: $font_color_text;
+    transition: 0.3 ease all;
+}
+
+.logo {
+    float: left;
+    animation-name: carga;
+    animation-duration: 0.5s;
+}
+
+.logo__firma {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo__info {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    text-align: center;
+    color: rgb(170,214,193);
+}
+
+header {
+    background-color: $bg_nav;
+    height: 115px;
+    width: 100%;
+    position: fixed;
+    text-align: right;
+    list-style: none;
+    left: 0;
+    top: 0;
+    font-family: $font_general;
+    box-shadow: 1px 1px 5px grey;
+    letter-spacing: 1px;
+    z-index: 999;
+}
+
+.toggle{
+    color: black;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
+}

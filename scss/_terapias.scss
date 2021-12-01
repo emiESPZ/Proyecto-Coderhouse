@@ -1,0 +1,55 @@
+/*PAGINA TERAPIAS*/
+
+@mixin margins($mt, $mr, $mb, $ml){
+    margin-top: $mt;
+    margin-right: $mr;
+    margin-bottom: $mb;
+    margin-left: $ml;
+    
+    
+}
+
+.terapias {
+    @include margins(10rem, 12rem, 0, 12rem);
+    text-align: justify;
+    font-family: $font_general;
+    color: $font_color_text;
+    
+    &>h2 {
+        @include margins(2.5rem, 0, 0.5rem, 0);
+    }
+
+    &>h3 {
+        @include margins(1rem, 0, 0.5rem, 0);
+    }
+
+    &__parejas {
+        @include margins(4.5rem, 0, 0, 0);
+
+        &>h3 {
+            @include margins(2.5rem, 0, 0.5rem, 0);
+        }
+
+        &>h4 {
+            @include margins(1rem, 0, 0.5rem, 0);
+        }
+    }
+
+    &__virtual>h3 {
+        @include margins(2.5rem, 0, 0.5rem, 0);
+
+        &>h4 {
+            @include margins(1rem, 0, 0.5rem, 0);
+        }
+    }
+
+    }
+
+.virtual{
+    width: 25%;
+    margin-left: -5rem;
+}
+
+.tv{
+    margin-top: -2rem;
+}
