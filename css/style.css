@@ -202,9 +202,9 @@ header {
 /*PAGINA TERAPIAS*/
 .terapias {
   margin-top: 10rem;
-  margin-right: 12rem;
+  margin-right: 10%;
   margin-bottom: 0;
-  margin-left: 12rem;
+  margin-left: 10%;
   text-align: justify;
   font-family: "Rubik", sans-serif;
   color: black;
@@ -470,7 +470,6 @@ input {
 .footer-sitio h4 {
   color: white;
   border-bottom: 2px solid grey;
-  width: 35rem;
 }
 
 .footer-publicaciones {
@@ -485,7 +484,6 @@ input {
 .footer-publicaciones h4 {
   color: white;
   border-bottom: 2px solid grey;
-  width: 35rem;
 }
 
 /*PAGINA SOBRE MI*/
@@ -655,10 +653,20 @@ input {
   margin-right: 12rem;
 }
 
-.no-content {
-  margin-top: 20rem;
+.contactame {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  margin-left: 12rem;
 }
 
+.contactame a {
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+
+/* .no-content {
+    margin-top: 20rem;
+} */
 .video {
   text-align: center;
   margin-top: -14rem;
@@ -773,6 +781,10 @@ input {
 
   .iframei {
     height: 19rem;
+  }
+
+  .trsi {
+    margin-left: 1rem;
   }
 }
 @media (max-width: 1050px) {
@@ -1043,6 +1055,23 @@ input {
 
   .logoi {
     margin-left: 4.2rem;
+  }
+
+  #consulta {
+    width: 80%;
+  }
+}
+@media (max-width: 442px) {
+  .texto p {
+    font-size: 0.9rem;
+  }
+
+  .toggle {
+    margin-left: 75%;
+  }
+
+  .logo {
+    margin-left: 18%;
   }
 }
 

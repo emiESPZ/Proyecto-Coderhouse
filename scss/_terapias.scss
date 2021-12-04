@@ -10,7 +10,7 @@
 }
 
 .terapias {
-    @include margins(10rem, 12rem, 0, 12rem);
+    @include margins(10rem, 10%, 0, 10%);
     text-align: justify;
     font-family: $font_general;
     color: $font_color_text;
