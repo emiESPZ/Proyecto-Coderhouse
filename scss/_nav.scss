@@ -43,7 +43,7 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
     display: inline-block;
-    margin-top: 0.8rem;
+    margin-top: 1.5rem;
     cursor: pointer;
     position: relative;
     width: 10rem;
@@ -149,8 +149,14 @@
     
 }
 
-.nav__item:hover .nav__sublist {
+.nav__item:hover .nav__sublist{
     display: block;
     margin-left: -2.2rem;
     text-align: center;
+}
+.nav__item:active .nav__sublist{
+    display: block;
+    margin-left: -2.2rem;
+    text-align: center;
+    z-index: 999;
 }

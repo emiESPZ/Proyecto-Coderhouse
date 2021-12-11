@@ -30,7 +30,7 @@ html {
   font-family: sans-serif;
   font-size: 0.8rem;
   margin-left: 2rem;
-  margin-top: -1rem;
+  margin-top: -1.5rem;
   text-align: center;
   color: #aad6c1;
 }
@@ -97,7 +97,7 @@ header {
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: inline-block;
-  margin-top: 0.8rem;
+  margin-top: 1.5rem;
   cursor: pointer;
   position: relative;
   width: 10rem;
@@ -197,6 +197,13 @@ header {
   display: block;
   margin-left: -2.2rem;
   text-align: center;
+}
+
+.nav__item:active .nav__sublist {
+  display: block;
+  margin-left: -2.2rem;
+  text-align: center;
+  z-index: 999;
 }
 
 /*PAGINA TERAPIAS*/
@@ -508,7 +515,7 @@ input {
 .fotopsi1 {
   width: 17rem;
   height: 17rem;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 
 .cv {
@@ -536,8 +543,8 @@ input {
 }
 
 .cv p {
-  margin-left: 15rem;
-  margin-right: 15rem;
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: justify;
 }
 
@@ -646,9 +653,14 @@ input {
   z-index: -1;
 }
 
+.map-cont {
+  width: 95%;
+  height: 25rem;
+}
+
 /*PAGINA MAS*/
 .mas {
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   margin-left: 12rem;
   margin-right: 12rem;
 }
@@ -664,12 +676,15 @@ input {
   font-family: "Rubik", sans-serif;
 }
 
-/* .no-content {
-    margin-top: 20rem;
-} */
+.iframevid {
+  width: 45rem;
+  height: 25rem;
+}
+
 .video {
   text-align: center;
-  margin-top: -14rem;
+  margin-top: -12%;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 1994px) {
@@ -713,6 +728,10 @@ input {
   .contacto h3 {
     font-size: 1.3rem;
   }
+
+  .fotopsi1 {
+    margin-top: -1rem;
+  }
 }
 @media (max-width: 1440px) {
   .labeli {
@@ -737,6 +756,15 @@ input {
 
   .iframei {
     height: 25rem;
+  }
+
+  .sobremi {
+    display: block;
+  }
+
+  .fotopsi1 {
+    margin-top: 2rem;
+    margin-left: 30%;
   }
 }
 @media (max-width: 1280px) {
@@ -786,13 +814,35 @@ input {
   .trsi {
     margin-left: 1rem;
   }
+
+  .map-cont {
+    height: 20rem;
+  }
+
+  .cv {
+    width: 85%;
+  }
+
+  .cv ul li {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .sobremi-texto {
+    margin-left: -22%;
+    margin-right: -22%;
+  }
+
+  .fotopsi1 {
+    margin-left: 25%;
+  }
 }
 @media (max-width: 1050px) {
   .nav__link {
     padding-left: 1rem;
     padding-right: 1rem;
     width: max-content;
-    margin-top: 0.8rem;
+    margin-top: 1.5rem;
   }
 
   .nav__link1::after {
@@ -821,13 +871,13 @@ input {
   }
 }
 @media (max-width: 1000px) {
-  .footer__logos__redes {
-    color: white;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
-    text-shadow: 1px 1px 5px black;
-  }
+  /*     .footer__logos__redes {
+      color: white;
+      font-size: 1.5rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      text-shadow: 1px 1px 5px black;
+      } */
 }
 @media (max-width: 991px) {
   .logoi {
@@ -891,11 +941,46 @@ input {
   .trsi {
     margin-right: -1rem;
   }
+
+  .map-cont {
+    align-items: center;
+    width: 100%;
+    height: 25rem;
+  }
+}
+@media (max-width: 800px) {
+  .tcc_resto {
+    display: none;
+  }
+
+  .pareja {
+    display: none;
+  }
+
+  .pareja_resto {
+    display: none;
+  }
+
+  .virtual {
+    display: none;
+  }
+
+  .terapias__parejas {
+    margin-top: 2rem;
+  }
+
+  .terapias__virtual {
+    margin-top: 3.5rem;
+  }
 }
 @media (max-width: 769px) {
   .logoi {
     margin-top: -0.5rem;
     margin-left: 5rem;
+  }
+
+  .fotopsi1 {
+    margin-left: 22%;
   }
 }
 @media (max-width: 768px) {
@@ -955,6 +1040,14 @@ input {
 
   .nav__item {
     text-align: center;
+  }
+
+  .nav__sublist {
+    margin-top: -2rem;
+  }
+
+  .nav__sublink {
+    margin-left: 27rem;
   }
 
   .grafico {
@@ -1047,6 +1140,45 @@ input {
   .logoi {
     margin-left: 4.3rem;
   }
+
+  .iframevid {
+    width: 30rem;
+    height: 15rem;
+    margin-top: 35%;
+  }
+
+  .mas {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contactame {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fotopsi1 {
+    display: none;
+  }
+
+  .nav__item:hover .nav__sublist {
+    margin-left: -2.2rem;
+  }
+
+  .nav__item:active .nav__sublist {
+    margin-left: -2.2rem;
+  }
+}
+@media (max-width: 660px) {
+  .nav__item:hover .nav__sublist {
+    margin-left: -7.5rem;
+  }
+
+  .nav__item:active .nav__sublist {
+    margin-left: -7.5rem;
+  }
 }
 @media (max-width: 530px) {
   .logo {
@@ -1060,6 +1192,33 @@ input {
   #consulta {
     width: 80%;
   }
+
+  .iframevid {
+    width: 26rem;
+    height: 15rem;
+    margin-top: 35%;
+  }
+
+  .map-cont {
+    height: 20rem;
+  }
+
+  .nav__item:hover .nav__sublist {
+    margin-left: -11.5rem;
+  }
+
+  .nav__item:active .nav__sublist {
+    margin-left: -11.5rem;
+  }
+}
+@media (max-width: 485px) {
+  .nav__item:hover .nav__sublist {
+    margin-left: -12rem;
+  }
+
+  .nav__item:active .nav__sublist {
+    margin-left: -12rem;
+  }
 }
 @media (max-width: 442px) {
   .texto p {
@@ -1072,6 +1231,24 @@ input {
 
   .logo {
     margin-left: 18%;
+  }
+
+  .iframevid {
+    width: 22rem;
+    height: 10rem;
+    margin-top: 45%;
+  }
+
+  .map-cont {
+    height: 12rem;
+  }
+
+  .nav__item:hover .nav__sublist {
+    display: none;
+  }
+
+  .nav__item:active .nav__sublist {
+    display: none;
   }
 }
 
