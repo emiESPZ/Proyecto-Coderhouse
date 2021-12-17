@@ -21,7 +21,7 @@ html {
 
 .logo__firma {
   font-family: "Great Vibes", cursive;
-  font-size: 3rem;
+  font-size: 300%;
   padding: 1rem;
   text-align: center;
 }
@@ -973,6 +973,10 @@ input {
   .fotopsi1 {
     margin-left: 22%;
   }
+
+  .logo__firma {
+    font-size: 250%;
+  }
 }
 @media (max-width: 768px) {
   .nav__link1::after {
@@ -1011,8 +1015,8 @@ input {
     float: none;
   }
 
-  .logo h2 {
-    font-size: 2.8rem;
+  .logo__firma {
+    font-size: 250%;
   }
 
   .logo h4 {
@@ -1051,12 +1055,11 @@ input {
   }
 
   .nav__lists {
-    padding-top: 15rem;
+    padding-top: 12rem;
   }
 
   .principal {
     margin-top: 8%;
-    z-index: 999;
   }
 
   .nav-list__visible {
@@ -1065,6 +1068,7 @@ input {
 
   .nav__item {
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   .nav__sublist {
@@ -1105,6 +1109,7 @@ input {
 
   .page-center {
     margin-top: 2rem;
+    width: 100%;
   }
 
   .contacto-formulario {
@@ -1148,14 +1153,8 @@ input {
     margin-right: -1rem;
   }
 
-  .logo__firma {
-    font-size: 35px;
-    margin-left: -35rem;
-  }
-
-  .logo__info {
-    font-size: 10px;
-    margin-left: -35rem;
+  .principal {
+    z-index: 888;
   }
 }
 @media (max-width: 768px) {
@@ -1204,6 +1203,36 @@ input {
 
   .nav__item:active .nav__sublist {
     margin-left: -6.5rem;
+  }
+
+  .logo h2, .logo h4 {
+    margin-left: -55%;
+  }
+
+  .cv ul li {
+    margin-left: 1%;
+    margin-right: 8%;
+    font-size: 0.8rem;
+  }
+
+  .sobremi-texto {
+    font-size: 0.9rem;
+  }
+
+  .footer-sitio h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer-sitio p {
+    text-align: left;
+  }
+
+  .footer-publicaciones h4 {
+    font-size: 1.2rem;
+  }
+
+  .footer-publicaciones p {
+    text-align: left;
   }
 }
 @media (max-width: 570px) {
@@ -1289,6 +1318,10 @@ input {
 @media (max-width: 384px) {
   .container2 {
     display: none;
+  }
+
+  .logo h2, .logo h4 {
+    margin-left: -45%;
   }
 }
 

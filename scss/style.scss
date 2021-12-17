@@ -532,6 +532,7 @@ margin-right: 5%;
     .fotopsi1{
         margin-top: -1rem;
     }
+
 }
 
 @media (max-width: 1440px){
@@ -561,10 +562,7 @@ margin-right: 5%;
     .fotopsi1{
         margin-top:2rem;
        margin-left:  30%;
-       
     }
-
-
      }    
 
 
@@ -662,7 +660,6 @@ margin-right: 5%;
         width: 38px;
                    }   
 
-
 }
 
 @media (max-width: 991px){
@@ -728,6 +725,7 @@ margin-right: 5%;
         width: 100%;
         height: 25rem;
     }
+
 }
 
 @media (max-width: 800px){
@@ -762,6 +760,11 @@ margin-right: 5%;
         margin-left:  22%;
            
      }
+     .logo__firma {
+   
+        font-size: 250%;
+    
+    }
 }
 
 @media (max-width: 768px){
@@ -800,8 +803,10 @@ margin-right: 5%;
         
         
     } 
-    .logo h2{
-        font-size: 2.8rem;
+    .logo__firma {
+   
+        font-size: 250%;
+    
     }
     .logo h4{
         font-size: 0.8rem;
@@ -839,14 +844,14 @@ margin-right: 5%;
     }
 
     .nav__lists{
-        padding-top:15rem;
+        padding-top:12rem;
 
 
     }
 
     .principal{
         margin-top: 8%;
-        z-index: 999;
+        
     }
 
     .nav-list__visible{
@@ -855,6 +860,7 @@ margin-right: 5%;
     }
     .nav__item{
         text-align: center;
+        margin-bottom: 3rem;
         
     }
     .nav__sublist{
@@ -894,6 +900,7 @@ margin-right: 5%;
 
     .page-center{
         margin-top: 2rem;
+        width: 100%;
     }
 
     .contacto-formulario{
@@ -931,14 +938,9 @@ margin-right: 5%;
     .trsi{
         margin-right: -1rem;
     }
-    .logo__firma{
-        font-size: 35px;
-        margin-left:-35rem;
-    }
-    .logo__info{
-        font-size: 10px;
-        margin-left:-35rem;
-    }
+.principal{
+    z-index: 888;
+}
 
 
 }
@@ -977,10 +979,10 @@ margin-right: 5%;
 .nav__item:active .nav__sublist{
 
     margin-left: -2.2rem;
+}
 
- 
 }
-}
+
 @media (max-width: 660px){
 
 
@@ -992,7 +994,31 @@ margin-right: 5%;
   
       margin-left: -6.5rem;
   } 
-
+  .logo h2, .logo h4 {
+    margin-left: -55%;
+    
+}   
+.cv ul li{
+margin-left: 1%;
+margin-right: 8%;
+font-size: 0.8rem;
+}
+.sobremi-texto{
+    font-size: 0.9rem;
+    
+}
+.footer-sitio h4{
+    font-size: 1.2rem;
+}
+.footer-sitio p{
+    text-align: left;
+}
+.footer-publicaciones h4{
+    font-size: 1.2rem;
+}
+.footer-publicaciones p{
+    text-align: left;
+}
 }
 
 @media (max-width: 570px){
@@ -1092,4 +1118,8 @@ margin-right: 5%;
     .container2{
        display: none;
 }
+.logo h2, .logo h4 {
+    margin-left: -45%;
+    
+}   
 }
