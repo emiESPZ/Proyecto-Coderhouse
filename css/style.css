@@ -762,9 +762,9 @@ input {
     display: block;
   }
 
-  .fotopsi1 {
+  .fotopsic {
     margin-top: 2rem;
-    margin-left: 30%;
+    text-align: center;
   }
 }
 @media (max-width: 1280px) {
@@ -831,10 +831,6 @@ input {
   .sobremi-texto {
     margin-left: -22%;
     margin-right: -22%;
-  }
-
-  .fotopsi1 {
-    margin-left: 25%;
   }
 }
 @media (max-width: 1050px) {
@@ -970,10 +966,6 @@ input {
     margin-left: 5rem;
   }
 
-  .fotopsi1 {
-    margin-left: 22%;
-  }
-
   .logo__firma {
     font-size: 250%;
   }
@@ -1052,6 +1044,8 @@ input {
     overflow-y: auto;
     margin-top: 100rem;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav__lists {
@@ -1060,10 +1054,11 @@ input {
 
   .principal {
     margin-top: 8%;
+    z-index: 999;
   }
 
   .nav-list__visible {
-    margin-top: 0%;
+    margin-top: 1.5rem;
   }
 
   .nav__item {
@@ -1153,11 +1148,11 @@ input {
     margin-right: -1rem;
   }
 
-  .principal {
-    z-index: 888;
+  .cv ul li {
+    margin-left: 1%;
+    margin-right: 8%;
   }
-}
-@media (max-width: 768px) {
+
   .logo {
     margin-left: 2.2rem;
   }
@@ -1184,16 +1179,16 @@ input {
     margin-right: auto;
   }
 
-  .fotopsi1 {
-    display: none;
-  }
-
   .nav__item:hover .nav__sublist {
     margin-left: -2.2rem;
   }
 
   .nav__item:active .nav__sublist {
     margin-left: -2.2rem;
+  }
+
+  .nav__link2 {
+    padding-bottom: 1.5rem;
   }
 }
 @media (max-width: 660px) {
@@ -1234,6 +1229,10 @@ input {
   .footer-publicaciones p {
     text-align: left;
   }
+
+  .nav-list__visible {
+    margin-top: 0rem;
+  }
 }
 @media (max-width: 570px) {
   .nav__item:hover .nav__sublist {
@@ -1242,6 +1241,10 @@ input {
 
   .nav__item:active .nav__sublist {
     margin-left: -8.5rem;
+  }
+
+  .nav-list__visible {
+    margin-top: -1.5rem;
   }
 }
 @media (max-width: 530px) {
@@ -1274,6 +1277,10 @@ input {
   .nav__item:active .nav__sublist {
     margin-left: -10.5rem;
   }
+
+  .nav-list__visible {
+    margin-top: -1.8rem;
+  }
 }
 @media (max-width: 485px) {
   .nav__item:hover .nav__sublist {
@@ -1282,6 +1289,10 @@ input {
 
   .nav__item:active .nav__sublist {
     margin-left: -13rem;
+  }
+
+  .nav-list__visible {
+    margin-top: -2.5rem;
   }
 }
 @media (max-width: 442px) {
@@ -1314,6 +1325,10 @@ input {
   .nav__item:active .nav__sublist {
     display: none;
   }
+
+  .nav-list__visible {
+    margin-top: -5rem;
+  }
 }
 @media (max-width: 384px) {
   .container2 {
@@ -1322,6 +1337,14 @@ input {
 
   .logo h2, .logo h4 {
     margin-left: -45%;
+  }
+
+  .nav-list__visible {
+    margin-top: -7rem;
+  }
+
+  .fotopsi1 {
+    margin-left: -1.2rem;
   }
 }
 
