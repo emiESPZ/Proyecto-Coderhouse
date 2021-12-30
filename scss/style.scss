@@ -157,7 +157,8 @@ iframe{
 
 .formi {
     
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     height: 30%;
     width: 80%;
     
@@ -660,6 +661,10 @@ margin-right: 5%;
 
 @media (max-width: 991px){
 
+    .formi{
+        margin-left: 0px;
+                }
+
     .logoi{
         margin-top:-4rem;
     }
@@ -743,6 +748,7 @@ margin-right: 5%;
    .terapias__virtual{
     margin-top: 3.5rem;
 }
+
 }
 
 @media (max-width: 769px){
